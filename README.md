@@ -1,20 +1,22 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+Open Terminal and go to the project folder (the one that contains package.json).
+   Example (Mac):
+   cd /path/to/brunelOnChain
 
-First, run the development server:
+2) Install dependencies:
+   npm install
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+3) Start the dev server:
+   npm run dev
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4) Open the app in the browser:
+   http://localhost:3000
+
+If npm says it cannot find package.json, you are in the wrong folder.
+Run:
+   ls
+and then cd into the folder where package.json exists, then repeat steps 2–4.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
